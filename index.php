@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="iso-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El 10</title>
+    <link rel="stylesheet" href="Styles/Normalize.css"/>
+    <link rel="stylesheet" href="Styles/mihojadeestilos.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Styles/estilosslider.css"> 
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Voces&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+<header class="cabecerapcipal">
+    <div class="cabecerapcipal__contenedor">
+        <!-- <h2>CANAL EL DIEZ</h2> -->
+        <img class="cabecerapcipal__imgportada" src="images/portada/portada.jpg">
+    </div>
+</header>
+
+<nav class="nav">
+    <ul class="nav__ul">
+        <li class="nav__li"><img src="images/banderas/bandera_colombia.png"/><a href="#">Liga Águila</a></li>
+        <li class="nav__li"><img src="images/banderas/bandera_mexico.png"/><a href="#">Liga MX</a></li>
+        <li class="nav__li"><img src="images/logos/logo_champions.png"/><a href="#">Champions League</a></li>
+        <li class="nav__li"><img src="images/logos/logo_mundial.png"/><a href="#">Eliminatorias</a></li>
+        <li class="nav__li"><img src="images/logos/logo_concacaf.png"/><a href="#">Concachampions</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                    <div class="contenedor_nota_min">
+                    <h2>Messi y una mala racha contra Madrid</h2>
+                    <p>Messi y el barcelona han marcado una mala racha vs el equipo de Zinedine ZInade</p>
+                    </div>
+                <img src="https://static01.nyt.com/images/2020/02/26/multimedia/26JimenezES-1/merlin_166141383_4f9a6988-6f26-4af5-8500-215222acac56-superJumbo.jpg?quality=90&auto=webp" alt="Los Angeles">
+            </div>
+            <div class="item">
+                <img src="https://caracol.com.co/radio/imagenes/2020/10/29/el_alargue/1603946095_249287_1603946661_miniatura_normal.jpg" alt="Chicago" style="width:100%;">
+            </div>
+            <div class="item">
+                <img src="https://cr00.epimg.net/radio/imagenes/2020/10/29/deportes/1603935906_300934_1603936274_miniatura_normal.jpg" alt="New york" style="width:100%;">
+            </div>
+            <div class="item">
+                <img src="https://est.zetaestaticos.com/cordoba/img/noticias/1/394/1394960_1.jpg" alt="New york" style="width:100%;">
+            </div>
+            <div class="item">
+                <img src="https://files.rcnradio.com/public/2020-10/millonarios_0.jpg" alt="New york" style="width:100%;">
+            </div>
+            <div class="item">
+                <img src="https://wrmx00.epimg.net/radio/imagenes/2020/10/24/deportes/1603556908_543861_1603557108_miniatura_normal.jpg" alt="New york" style="width:100%;">
+            </div>
+            <div class="item">
+                <img src="https://okdiario.com/img/2020/10/28/rashford-tira-ante-gulacsi.-afp.jpg" alt="New york" style="width:100%;">
+            </div>
+            <div class="item">
+                <img src="https://piks-eldesmarqueporta.netdna-ssl.com/thumbs/o/1200/bin/2020/04/29/surf.png" alt="New york" style="width:100%;">
+            </div>
+        </div>
+        
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        
+       
+    </div>
+</div> 
+
+<!-- <aside class="publicidad">
+    <blockquote>Primer elemento</blockquote>
+    <blockquote>Segundo elemento</blockquote>
+    <blockquote>Tercer elemento</blockquote>
+</aside> -->
+
+<div class="contenedor__articulos">
+
+<div class="contenedor__articulos__nota">
+    <img src="images/card/Messi.jpg" alt="Messi">
+        <div >
+        <p>Lionel Messi no pudo marcarle al Manchester</p>
+        </div>
+</div>
+
+<div class="contenedor__articulos__nota">
+    <img src="images/card/cardona.jpg" alt="Cardona">
+        <div>
+        <p>Cardona y su idea de quedarse en Boca</p>
+        </div>
+</div>
+
+<div class="contenedor__articulos__nota">
+    <img src="images/card/bayern.jpg" alt="Bayern">
+        <div>
+        <p>Cardona y su idea de quedarse en Boca</p>
+        </div>
+</div>
+
+<div class="contenedor__articulos__nota">
+    <img src="images/card/chelsea.jpg" alt="chelsea" >
+        <div>
+        <p>Cardona y su idea de quedarse en Boca</p>
+        </div>
+</div>
+
+<div class="contenedor__articulos__nota">
+    <img src="images/card/cardona.jpg" alt="Cardona">
+        <div>
+        <p>Cardona y su idea de quedarse en Boca</p>
+        </div>
+</div>
+
+</div>
+
+<footer>Copyrigth @ 21823657</footer>
+<!-- <script src="Methods/funciones.js"></script> -->
+</body>
+</html>
