@@ -29,6 +29,9 @@
     color: cornsilk;
     background-color: crimson;
 }
+.search {
+    position: absolute;
+}
 
 .nav {
     background-color: white;
