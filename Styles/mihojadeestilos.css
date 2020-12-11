@@ -16,7 +16,14 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
+}
+
+.logo__eldiez {
+    width: 40px;
+    height: auto;
+    object-fit: cover;
+    vertical-align: auto;
+    margin-right: 10px;
 }
 
 .titulo__page {
