@@ -52,7 +52,9 @@
 .carousel-control.right,
 .carousel-control.left{
     background-image: none;
+    
 }
+
 
 @media screen and (min-width:320px) and (max-width:360px) {
     .carousel-indicators{
@@ -80,4 +82,5 @@
         top:240px;
         left:213px;
     }
+   
 }
